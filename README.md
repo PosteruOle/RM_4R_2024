@@ -1,4 +1,4 @@
-# RM_2024
+# RM_4R_2024
 Ovaj repozitorijum će sadržati materijale sa časova vežbi na kursu Računarske mreže na Matematičkom fakultetu.
 
 ## Hronologija
