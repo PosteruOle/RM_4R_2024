@@ -37,8 +37,8 @@ U nastavku možete pronaći snimke vežbi iz školske 2021/2022. godine preuzete
 | 12 | [Upoznavanje sa protokol handler-ima](https://matf.webex.com/matf/ldr.php?RCID=3cf5895639475bba9d014e0cade693f2)          | tUxpAAZ5 |
 | 13 | [Upoznavanje sa raznim alatima](https://matf.webex.com/matf/ldr.php?RCID=0c03cfc3e4f0f38c109281499a056a66)                | 4dWmKMJk |
 
-Takođe, snimke vežbi kolege Ivana Ristovića za školsku 2021/2022. godinu možete pronaći na sledećem [linku](https://www.youtube.com/playlist?list=PLOGAKiQpHThNuKZi77U8JBozbNkyZ_Ag1).  
-Takođe, snimke vežbi kolege Ivana Ristovića za školsku 2020/2021. godinu možete pronaći na sledećem [linku](https://www.youtube.com/playlist?list=PLOGAKiQpHThOSVg_b-ljnNppwy00z_6uR).
+Snimke vežbi kolege Ivana Ristovića za školsku 2021/2022. godinu možete pronaći na sledećem [linku](https://www.youtube.com/playlist?list=PLOGAKiQpHThNuKZi77U8JBozbNkyZ_Ag1).  
+Snimke vežbi kolege Ivana Ristovića za školsku 2020/2021. godinu možete pronaći na sledećem [linku](https://www.youtube.com/playlist?list=PLOGAKiQpHThOSVg_b-ljnNppwy00z_6uR).
 ## Materijali sa predavanja:
 U nastavku se nalaze materijali sa predavanja profesora Mirka Spasić:
 
