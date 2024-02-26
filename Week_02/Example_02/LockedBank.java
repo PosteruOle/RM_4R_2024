@@ -1,4 +1,4 @@
-package Primer_02;
+package Example_02;
 
 import java.util.Arrays;
 import java.util.concurrent.locks.Condition;

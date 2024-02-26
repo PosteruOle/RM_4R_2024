@@ -1,4 +1,4 @@
-package Primer_02;
+package Example_02;
 
 public interface IBank {
     void transfer(int from, int to, int amount);

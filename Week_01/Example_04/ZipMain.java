@@ -1,4 +1,4 @@
-package Primer_04;
+package Example_04;
 
 import java.io.*;
 import java.util.zip.GZIPOutputStream;
@@ -8,10 +8,10 @@ public class ZipMain {
         try{
             long start=System.currentTimeMillis();
 
-            BufferedInputStream bin=new BufferedInputStream((new FileInputStream("Nedelja_01/Primer_04/input_data.txt")));
-            BufferedOutputStream bout=new BufferedOutputStream(new GZIPOutputStream(new FileOutputStream("Nedelja_01/Primer_04/output_data.gz")));
+            BufferedInputStream bin=new BufferedInputStream((new FileInputStream("Week_01/Example_04/input_data.txt")));
+            BufferedOutputStream bout=new BufferedOutputStream(new GZIPOutputStream(new FileOutputStream("Week_01/Example_04/output_data.gz")));
             // You can also try the following command!
-            // BufferedOutputStream bout=new BufferedOutputStream(new GZIPOutputStream(new FileOutputStream("Week_01/Task_04/output_data.rar")));
+            // BufferedOutputStream bout=new BufferedOutputStream(new GZIPOutputStream(new FileOutputStream("Week_01/Example_04/output_data.rar")));
 
             byte[] buffer=new byte[512];
             int read_bytes;

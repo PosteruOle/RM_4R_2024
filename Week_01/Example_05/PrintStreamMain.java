@@ -1,11 +1,11 @@
-package Primer_05;
+package Example_05;
 
 import java.io.*;
 import java.util.Scanner;
 
 public class PrintStreamMain {
     public static void main(String[] args) {
-        try (PrintStream printer = new PrintStream(new BufferedOutputStream(new FileOutputStream("Week_01/Task_05/printer_output.txt")))) {
+        try (PrintStream printer = new PrintStream(new BufferedOutputStream(new FileOutputStream("Week_01/Example_05/printer_output.txt")))) {
             printer.print("Hello");
             printer.println(" world!");
             double pi=3.1415;
@@ -16,7 +16,7 @@ public class PrintStreamMain {
             e.printStackTrace();
         }
 
-        try(Scanner sc=new Scanner(new FileInputStream("Week_01/Task_05/printer_output.txt"))){
+        try(Scanner sc=new Scanner(new FileInputStream("Week_01/Example_05/printer_output.txt"))){
            while(sc.hasNextLine()){
                System.out.println(sc.nextLine());
            }

@@ -1,4 +1,4 @@
-package Primer_02;
+package Example_02;
 
 public class BankTest {
     private static final int ACCOUNTS = 5;

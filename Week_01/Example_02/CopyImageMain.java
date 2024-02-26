@@ -1,4 +1,4 @@
-package Primer_02;
+package Example_02;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,8 +8,8 @@ public class CopyImageMain {
         try{
             long start=System.currentTimeMillis();
 
-            FileInputStream fin=new FileInputStream("Nedelja_01/Primer_02/input_image.png");
-            FileOutputStream fout=new FileOutputStream("Nedelja_01/Primer_02/output_image.png");
+            FileInputStream fin=new FileInputStream("Week_01/Example_02/input_image.png");
+            FileOutputStream fout=new FileOutputStream("Week_01/Example_02/output_image.png");
 
             int read_bytes;
             while((read_bytes= fin.read())!=-1){

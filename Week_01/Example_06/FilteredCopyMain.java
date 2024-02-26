@@ -1,15 +1,14 @@
-package Primer_06;
+package Example_06;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 
 public class FilteredCopyMain {
     public static void main(String[] args) {
         try(
-            Scanner scanner=new Scanner(new BufferedReader(new InputStreamReader(new FileInputStream("Nedelja_01/Primer_06/input_data.txt"))));
-            BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Nedelja_01/Primer_06/output_data.txt")));
+            Scanner scanner=new Scanner(new BufferedReader(new InputStreamReader(new FileInputStream("Week_01/Example_06/input_data.txt"))));
+            BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Week_01/Example_06/output_data.txt")));
         ){
 
             scanner.useDelimiter("\\b");
@@ -21,6 +20,8 @@ public class FilteredCopyMain {
                     writer.newLine();
                 }
             }
+
+            System.out.println("Done!");
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);

@@ -55,6 +55,12 @@ U nastavku se nalaze materijali sa predavanja profesora Mirka Spasić:
 
 Spisak ispitnih pitanja možete pronaći na sledećem [linku](http://poincare.matf.bg.ac.rs/~aleksandar.kartelj/nastava/RM2022/pitanja.pdf).
 
+## Literatura
+
+- [Computer Networks (5th Edition) -  Andrew Tanenbaum (Author), David Wetherall (Author)](https://www.amazon.com/Computer-Networks-5th-Andrew-Tanenbaum/dp/0132126958)
+- [Java Network Programming - Elliotte Harold](https://www.amazon.com/Network-Programming-Elliotte-Rusty-Harold/dp/1449357679)
+- [Computer Networking: A Top-Down Approach (7th Edition) - James Kurose (Author), Keith Ross (Author)](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149)
+
 ## Obaveze studenata
 
 **Praktični ispit:** 60 poena
