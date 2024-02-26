@@ -1,4 +1,4 @@
-package Task_02;
+package Primer_02;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -10,8 +10,8 @@ public class CopyImageBufferedMain {
         try{
             long start=System.currentTimeMillis();
 
-            BufferedInputStream input=new BufferedInputStream(new FileInputStream("Week_01/Task_02/input_image.png"));
-            BufferedOutputStream output=new BufferedOutputStream(new FileOutputStream("Week_01/Task_02/faster_output_image.png"));
+            BufferedInputStream input=new BufferedInputStream(new FileInputStream("Nedelja_01/Primer_02/input_image.png"));
+            BufferedOutputStream output=new BufferedOutputStream(new FileOutputStream("Nedelja_01/Primer_02/faster_output_image.png"));
 
             byte[] buffer=new byte[512];
             int read_bytes;

@@ -3,18 +3,18 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Week_01" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_02" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_03" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_04" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_05" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_06" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_07" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_08" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_09" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_10" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_11" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Week_12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_08" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_09" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Nedelja_12" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

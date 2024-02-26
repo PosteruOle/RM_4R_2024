@@ -1,4 +1,4 @@
-package Task_03;
+package Primer_03;
 
 import java.io.*;
 
@@ -7,8 +7,8 @@ public class CopyTextBufferedMain {
         try{
             long start=System.currentTimeMillis();
 
-            BufferedReader reader=new BufferedReader(new InputStreamReader(new FileInputStream("Week_01/Task_03/input_data.txt")));
-            BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Week_01/Task_03/faster_output_data.txt")));
+            BufferedReader reader=new BufferedReader(new InputStreamReader(new FileInputStream("Nedelja_01/Primer_03/input_data.txt")));
+            BufferedWriter writer=new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Nedelja_01/Primer_03/faster_output_data.txt")));
 
             char[] buffer=new char[512];
             int read_bytes;

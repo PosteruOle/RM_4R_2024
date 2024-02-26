@@ -1,4 +1,4 @@
-package Task_03;
+package Primer_03;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -10,8 +10,8 @@ public class CopyTextMain {
         try{
             long start=System.currentTimeMillis();
 
-            InputStreamReader reader=new InputStreamReader(new FileInputStream("Week_01/Task_03/input_data.txt"));
-            OutputStreamWriter writer=new OutputStreamWriter(new FileOutputStream("Week_01/Task_03/output_data.txt"));
+            InputStreamReader reader=new InputStreamReader(new FileInputStream("Nedelja_01/Primer_03/input_data.txt"));
+            OutputStreamWriter writer=new OutputStreamWriter(new FileOutputStream("Nedelja_01/Primer_03/output_data.txt"));
 
             int read_bytes;
             while((read_bytes= reader.read())!=-1){

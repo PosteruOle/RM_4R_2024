@@ -1,4 +1,4 @@
-package Task_01;
+package Primer_01;
 
 public class ThreadsIntroMain {
     public static void main(String[] args) {
