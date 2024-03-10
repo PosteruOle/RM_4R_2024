@@ -45,5 +45,4 @@ final class NetworkInterfaces {
             ex.printStackTrace();
         }
     }
-
 }

@@ -28,5 +28,5 @@ final class LoopBackInterface {
             System.err.println("Could not list sockets.");
         }
     }
-
 }
+

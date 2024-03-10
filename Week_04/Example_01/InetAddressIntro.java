@@ -12,7 +12,7 @@ public class InetAddressIntro {
         InetAddress address;
         Inet4Address ipv4addr;
         Inet6Address ipv6addr;
-
+        
         try {
             System.out.println(InetAddress.getByName("www.google.com"));
             System.out.println(InetAddress.getByName("www.facebook.com"));

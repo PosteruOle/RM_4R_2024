@@ -56,5 +56,5 @@ final class InetAddressVersion {
 
         System.out.println();
     }
-
 }
+
