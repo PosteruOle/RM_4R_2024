@@ -8,13 +8,13 @@ import java.util.concurrent.locks.ReentrantLock;
 public class LockedBank implements IBank{
     private int[] accounts;
     Lock lock;
-    Condition insiffitiantFunds;
+    Condition insufficientFunds;
 
     LockedBank(int numberOfAccounts, int startingBalance){
         this.accounts=new int[numberOfAccounts];
         Arrays.fill(this.accounts, startingBalance);
         this.lock=new ReentrantLock();
-        this.insiffitiantFunds=this.lock.newCondition();
+        this.insufficientFunds=this.lock.newCondition();
     }
 
     @Override
@@ -25,7 +25,7 @@ public class LockedBank implements IBank{
         try {
             while (this.accounts[from] < amount) {
                 try {
-                    this.insiffitiantFunds.await();
+                    this.insufficientFunds.await();
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
@@ -37,7 +37,7 @@ public class LockedBank implements IBank{
             System.out.printf("Transfer from %d to %d: %d\n", from, to, amount);
             System.out.println("Total balance in the bank: " + this.getTotalBalance());
 
-            this.insiffitiantFunds.signalAll();
+            this.insufficientFunds.signalAll();
         } finally {
             this.lock.unlock();
         }
