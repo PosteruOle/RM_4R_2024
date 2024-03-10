@@ -15,13 +15,17 @@ public class RaceConditionMain {
             }
         }
     }
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         for(int i=0;i<NUMBER_OF_THREADS;i++){
             Thread t=new Thread(new MyThreadRunnable());
             t.start();
         }
 
-        Thread.sleep(5000);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("Expected value of a target variable is equal to " + NUMBER_OF_THREADS*LIMIT);
         System.out.println("Final value of a target variable is equal to " + target);
     }
