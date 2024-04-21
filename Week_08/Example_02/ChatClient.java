@@ -29,9 +29,6 @@ public class ChatClient {
             Socket socket=new Socket(hostname, port);
             System.out.println("Connected to " + hostname);
 
-            // Citamo sa ulaza!
-            // Saljemo serveru!
-            // Citamo od servera sta drugi salju i to ispisujemo!
             new ClientReadThread(this.name, socket).start();
             new ClientWriteThread(this.name, socket).start();
 
