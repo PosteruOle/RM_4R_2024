@@ -12,9 +12,9 @@ U nastavku je naveden spisak tema koje pokrivamo na kursu:
 - **Nedelja 7:** TCP protokol i TCP soketi (klase Socket i ServerSocket);
 - **Nedelja 8:** nastavak priče o TCP protokolu i TCP soketima;
 - **Nedelja 9:** UDP protokol i UDP soketi (klase DatagramPacket i DatagramSocket);
-- **Nedelja 10:** predstavljanje koncepta neblokirajućeg ulaza i izlaza;
-- **Nedelja 11:** nastavak priče o neblokirajućem ulazu i izlazu; 
-- **Nedelja 12:** kreiranje protocol handler-a;
+- **Nedelja 10:** kreiranje protocol handler-a;
+- **Nedelja 11:** predstavljanje koncepta neblokirajućeg ulaza i izlaza;
+- **Nedelja 12:** nastavak priče o neblokirajućem ulazu i izlazu;
 - **Nedelja 13:** predstavljanje raznih korisnih alata;
 
 ## Snimci vežbi:
