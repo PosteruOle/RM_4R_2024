@@ -10,20 +10,17 @@ import java.net.URLConnection;
 public class FingerTest {
     // Run in terminal: finger | nc -l 12345
     // Then start the program!
-    public static void main(String[] args) throws MalformedURLException {
-        // URL url=new URL(null, "finger://localhost:12345/usernames", new Handler());
-        URL url = new URL(null, "finger://localhost:12345/admin", new Handler());
+    public static void main(String[] args) throws IOException {
+        URL url=new URL(null, "finger://localhost:12345/usernames", new Handler());
+        //URL url = new URL(null, "finger://localhost:12345/admin", new Handler());
 
-        try{
-            URLConnection connection=url.openConnection();
-            BufferedReader reader=new BufferedReader(new InputStreamReader(connection.getInputStream()));
-            String line;
+        URLConnection connection=url.openConnection();
 
-            while((line=reader.readLine())!=null){
-                System.out.println(line);
-            }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        BufferedReader reader=new BufferedReader(new InputStreamReader(connection.getInputStream()));
+        String line;
+        while((line=reader.readLine())!=null){
+            System.out.println(line);
         }
+
     }
 }

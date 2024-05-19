@@ -13,16 +13,15 @@ public class FingerURLConnection extends URLConnection {
     public final static int DEFAULT_PORT=12345;
     private Socket connection=null;
 
-
     FingerURLConnection(URL url) {
         super(url);
     }
-
 
     @Override
     public synchronized InputStream getInputStream() throws IOException {
         if (!this.connected)
             this.connect();
+
         return this.connection.getInputStream();
     }
 
