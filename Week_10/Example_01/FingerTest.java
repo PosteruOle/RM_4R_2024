@@ -11,6 +11,7 @@ public class FingerTest {
     // Run in terminal: finger | nc -l 12345
     // Then start the program!
     public static void main(String[] args) throws IOException {
+        //URL url=new URL("finger://localhost:12345/usernames");
         URL url=new URL(null, "finger://localhost:12345/usernames", new Handler());
         //URL url = new URL(null, "finger://localhost:12345/admin", new Handler());
 

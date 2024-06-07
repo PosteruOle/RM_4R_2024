@@ -53,6 +53,7 @@ public class FingerURLConnection extends URLConnection {
             out.write('\n');
             out.flush();
 
+
             this.connected = true;
         }
     }

@@ -13,15 +13,15 @@ public class IntegerGeneratorServer {
     public static int DEFAULT_PORT = 9595;
     public static void main(String[] args) {
         System.out.println("Listening for connections on port " + DEFAULT_PORT);
-        try (ServerSocketChannel serverChannel = ServerSocketChannel.open();
-             Selector selector = Selector.open()
+        try (
+            ServerSocketChannel serverChannel = ServerSocketChannel.open();
+            Selector selector = Selector.open();
         ) {
 
             serverChannel.bind(new InetSocketAddress(DEFAULT_PORT));
             serverChannel.configureBlocking(false);
             serverChannel.register(selector, SelectionKey.OP_ACCEPT);
 
-            //noinspection InfiniteLoopStatement
             while (true) {
 
                 selector.select();

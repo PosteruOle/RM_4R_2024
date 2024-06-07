@@ -8,8 +8,8 @@ import java.net.URLConnection;
 
 public class QuizTest {
     public static void main(String[] args) throws IOException {
-        // URL url=new URL(null, "quiz://localhost:1337?oblast=Geografija", new Handler());
-        URL url=new URL(null, "quiz://localhost:1337?oblast=Biologija", new Handler());
+        URL url=new URL(null, "quiz://localhost:1337?oblast=Geografija", new Handler());
+        //URL url=new URL(null, "quiz://localhost:1337?oblast=Biologija", new Handler());
         URLConnection conn= url.openConnection();
 
         try(BufferedReader r=new BufferedReader(new InputStreamReader(conn.getInputStream()))){

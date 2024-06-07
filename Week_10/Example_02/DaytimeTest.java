@@ -8,6 +8,7 @@ import java.net.URLConnection;
 
 public class DaytimeTest {
     public static void main(String[] args) throws IOException {
+        //URL url = new URL("daytime://localhost:8765");
         URL url = new URL(null, "daytime://localhost:8765", new Handler());
 
         // URLConnection conn = url.openConnection();

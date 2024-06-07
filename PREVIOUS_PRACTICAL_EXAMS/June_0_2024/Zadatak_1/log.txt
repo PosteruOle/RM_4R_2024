@@ -1,0 +1,6 @@
+http://www.matf.bg.ac.rs/dir1/dir2/file1.txt
+sftp://2001:0db8:85a3:::8a2e:0370:7334/dir1/text.txt
+https://test.net/path/image.jpg
+FILE:///home/ispit/Desktop/tests/dir1/test1.txt
+file:///home/ispit/books/rm.pdf
+file:///home/petar/Desktop/RM/RM_4R_2024/PREVIOUS_PRACTICAL_EXAMS/June_0_2024/Zadatak_1/log.txt
